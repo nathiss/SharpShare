@@ -1,0 +1,17 @@
+language: csharp
+
+mono: none
+dotnet: 3.1
+
+git:
+    depth: 1
+
+branches:
+    only:
+        - master
+
+jobs:
+    include:
+        - stage: Test
+          script: dotnet test SharpShare.Tests.sln
+          name: "Run SharpShare.Tests solution unit tests"

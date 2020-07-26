@@ -1,0 +1,6 @@
+[submodule "Uri"]
+	path = Uri
+	url = git@github.com:nathiss/Uri.git
+[submodule "Http"]
+	path = Http
+	url = git@github.com:nathiss/Http.git

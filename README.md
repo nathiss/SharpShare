@@ -19,7 +19,6 @@ clients.
                            The specification also requires that both the client and server maintain and update an indexed list of
                            previously seen header fields. Which is used to efficiently encode previously transmitted values.
 
-
 ## References
 
 * [RFC 7540](https://tools.ietf.org/html/rfc7540) - This is the official documentation of the protocol HTTP version 2 (HTTP/2).

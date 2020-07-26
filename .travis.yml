@@ -5,10 +5,15 @@ dotnet: 3.1
 
 git:
     depth: 1
+    submodules: false
 
 branches:
     only:
         - master
+
+before_install:
+    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+    - git submodule update --init --recursive
 
 jobs:
     include:

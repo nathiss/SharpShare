@@ -9,7 +9,7 @@ clients.
 
 ## New mechanisms
 
-* **Streams** - The protocol allows to multiplex many bidirectional flows of data refered to as **streams**. The streams can carry
+* **Streams** - The protocol allows to multiplex many bidirectional flows of data referred to as **streams**. The streams can carry
                 the smallest unit of data exchange - a **frame**. Each frame is a part of a **message** which maps to a logical
                 HTTP request or response.
 * **Server push** - The HTTP/2 protocol allows the server to send multiple responses to a single client's request. In addition to

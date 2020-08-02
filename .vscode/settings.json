@@ -11,12 +11,14 @@
         "docbook",
         "ex",
         "exæample",
+        "gitmodules",
         "hier",
         "infosystems",
         "ldap",
         "mailto",
         "passwd",
         "sdffd",
+        "submodule",
         "us'er"
     ]
 }
